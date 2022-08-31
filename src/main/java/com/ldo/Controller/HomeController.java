@@ -15,12 +15,12 @@ public class HomeController {
 	
 	@GetMapping("/prize")
 	public List<Prize> getPrizeList() {
-		return homeService.getAllPrize();
+		return null;
 	}
 	
 	@GetMapping("/prize/{prizeId}")
 	public Prize getPrize(@PathVariable(name="prizeId") Integer prizeId) {
-		return homeService.getPrize(prizeId);
+		return null;
 	}
 	
 	@PostMapping("/addPrize")
