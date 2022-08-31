@@ -20,7 +20,7 @@ public class HomeController {
 	
 	@GetMapping("/prize/{prizeId}")
 	public Prize getPrize(@PathVariable(name="prizeId") Integer prizeId) {
-		return homeService.getPrize(prizeId);
+		return null;
 	}
 	
 	@PostMapping("/addPrize")
