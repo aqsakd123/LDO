@@ -15,7 +15,7 @@ public class HomeController {
 	
 	@GetMapping("/prize")
 	public List<Prize> getPrizeList() {
-		return homeService.getAllPrize();
+		return null;
 	}
 	
 	@GetMapping("/prize/{prizeId}")
