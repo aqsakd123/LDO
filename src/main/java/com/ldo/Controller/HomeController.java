@@ -15,6 +15,7 @@ public class HomeController {
 	
 	@GetMapping("/prize")
 	public List<Prize> getPrizeList() {
+		int a = 0;
 		return null;
 	}
 	
