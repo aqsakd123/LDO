@@ -18,6 +18,7 @@ public class HomeController {
 		int a = 0;
 		int b = 0;
 		int c = 0;
+		int d = 0;
 		return null;
 	}
 	
