@@ -101,6 +101,10 @@ public class Prize {
 	
 	@NonNull
 	public int Prize26;
+	
+	@NonNull
+	public int Prize27;
+
 
 	public int getId() {
 		return id;
